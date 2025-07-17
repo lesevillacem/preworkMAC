@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Proyecto con Bootstrap 4</title>
+  <link rel="stylesheet" href="./estilos.css" />
+  
+  <!-- ✅ Bootstrap 4 CSS desde CDN -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+
+</head>
+<body data-spy="scroll" data-target="#navbar" data-offset="57">
+  
+
+
+  
+<!-- header inico -->
+<nav id="header" class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+  <a class="navbar-brand" href="#">Hunter X hunter</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbar">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#main">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#cazadoresh">Cabrones</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#place">Mundo</a>
+      </li>      
+
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#conviertete-en-cazadorx">Ser un cabron</a>
+      </li>
+    </ul>
+   
+  </div>
+</nav>
+<!-- header fin -->
+
+<!-- carousel inicio -->
+ <main id="main">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-pause="false">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+            <img class="d-block w-100" src="./imagenesboots/Netero-Featured.avif" alt="First slide">
+            </div>
+            <div class="carousel-item">
+            <img class="d-block w-100" src="./imagenesboots/Arco_Ciudad_Yorkshin.webp" alt="Second slide">
+            </div>
+            <div class="carousel-item">
+            <img class="d-block w-100" src="./imagenesboots/examen_cazador.webp" alt="Third slide">
+            </div>
+            
+<!-- overlay -->
+
+            <div class="overlay">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 offset-md-6 text-center text-md-right">
+                            <h1>HXH la cabra</h1>
+                            <p class="d-none d-md-block">Hunter x Hunter no es solo un anime más; es la CABRA. Su narrativa compleja y madura, el desarrollo de personajes 
+                                tan profundos que te sientes parte de su viaje, y un sistema de poder como el Nen, que es a la vez ingenioso y versátil, 
+                                lo distinguen de cualquier otro shonen. Cada arco es una obra maestra en sí mismo, con giros inesperados y momentos que te 
+                                dejarán al borde del asiento. HxH te engancha con su aventura, 
+                                pero te retiene con su maestría narrativa y su exploración de la moralidad humana. 
+                                ¡Es simplemente incomparable!</p>
+                            <a href="https://hunterxhunter.fandom.com/wiki/Hunterpedia">Quiero ser un cazador?</a>    
+                            <button class="btn btn-outline-light" type="submit" data-toggle="modal" data-target="#Modalcazador">Simon</button>
+
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </div>    
+<!-- overlay -->
+
+        </div>
+    
+        </div>
+</main>
+
+ <!-- carousel fin  -->
+
+
+
+<!-- cazadores inicio -->
+<section id="cazadoresh" class="mt-4">
+    <div class="container">
+        <div class="row">
+            <div class="col text-center text-uppercase">
+               <h2>Conoce a los mas cabrones</h2>
+
+
+
+
+            </div>
+
+        </div>
+        <div class="row">
+           <div class="col-12 col-md-6 col-lg-4 mb-4">
+                <div class="card">
+                    <img class="card-img-top" src="./imagenesboots/neterocarta.jpg" alt="netero goat">
+                    <div class="card-body">
+                        <h5 class="card-title">Issac Netero</h5>
+                        <div class="barges">
+                            <span class="badge badge-dark">Muerto</span>
+                        </div>
+                        <p class="card-text">Fue el décimo segundo presidente de la Asociación de Cazadores y
+                                             el presidente en el Comité de Selección del examen de Cazador.</p>
+                        <a href="https://hunterxhunter.fandom.com/es/wiki/Isaac_Netero" class="btn btn-primary">Mas sobre el</a>
+                    </div>
+                </div>
+           </div> 
+        
+        <!-- netero arribas chrollo abajo -->
+       
+           <div class="col-12 col-md-6 col-lg-4 mb-4">
+                <div class="card">
+                    <img class="card-img-top" src="./imagenesboots/chrollocarta.jpeg" alt="mejor arania">
+                    <div class="card-body">
+                        <h5 class="card-title">Chrollo Lucifer</h5>
+                        <div class="barges">
+                            <span class="badge badge-light">Vivo</span>
+                        </div>                        
+                        <p class="card-text">Es el líder de la Brigada Fantasma, 
+                                             una pandilla infame de ladrones con recompensas de clase A.</p>
+                        <a href="https://hunterxhunter.fandom.com/es/wiki/Chrollo_Lucilfer" class="btn btn-primary">Mas sobre el</a>
+                    </div>
+                </div>
+           </div> 
+         <!-- meruem abajo -->
+           <div class="col-12 col-md-6 col-lg-4 mb-4">
+                <div class="card">
+                    <img class="card-img-top" src="./imagenesboots/meruemcarta.webp" alt="mejor villano">
+                    <div class="card-body">
+                        <h5 class="card-title">Meruem</h5>
+                        <div class="barges">
+                            <span class="badge badge-dark">Muerto</span>
+                        </div>                        
+                        <p class="card-text">El más poderoso descendiente de la hormiga quimera reina, 
+                                            y el Rey de las Hormigas Quimera.</p>
+                        <a href="https://hunterxhunter.fandom.com/es/wiki/Meruem" class="btn btn-primary">Mas sobre el</a>
+                    </div>
+                </div>
+           </div>
+
+
+
+
+        </div>   
+
+ 
+        </div>  
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+</section>
+<!-- cazadores fin -->
+
+
+<!-- contenedor inicio -->
+<section id="place">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-lg-6 pl-0 pr-0">
+                <img src="./imagenesboots/mundohxh.webp" alt="mundo">
+            </div>
+            <div class="col-12 col-lg-6 pt-2 pb-4">
+                <h2>Mundo HXH</h2>
+                <p>El mundo ficticio de Hunter × Hunter está compuesto 
+                    por un gran océano y 6 continentes que son en realidad 
+                    los de nuestro mundo solo que con distinto orden, 
+                    estando América del sur en el norte y de forma invertida.</p>    
+                <a class="btn btn-outline-light" href="https://hunterxhunter.fandom.com/es/wiki/Mundo_de_Hunter_%C3%97_Hunter">Navega en este mundo</a>    
+            </div>
+        </div>
+    </div>
+
+</section>
+<!-- contenedor fin -->
+
+<!-- examen cazador inico -->
+<section id="conviertete-en-cazadorx" class="pt-4 pb-4">
+    <div class="container">
+      <div class="row">
+        <div class="col text-uppercase text-center">
+          <small>Conviertete en</small>
+          <h2><abbr data-toggle="tooltip" title="Alguien chingon">Cazador</abbr></h2>
+        </div>
+
+      </div>
+        <div class="row">
+            <div class="col text-center">
+              Anotate para ser un cazador y empoezar tu aventura, Y poder explorar todo
+              el mundo y sus misterios.
+            </div>
+        </div>
+      <div class="row">
+        <div class="col col-md-10 offset-md-1 col-lg-8 offset-md-2 pt-4">
+            <form>
+              <div class="form-row">
+                <div class=" form-group col-12 col-md-6">
+                  <input type="text" class="form-control" placeholder="Nombre">
+                </div>
+                <div class=" form-group col-12 col-md-6">
+                  <input type="text" class="form-control" placeholder="Apellido">
+                </div>
+              </div>
+              <div class="form-row">
+                  <div class="form-group col">
+                    <textarea name="text" class="form-control" placeholder="Que tipo de cazador quieres ser?"></textarea>
+                    <small class="form-text text-muted">Recuerda ser el mejor</small>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <button type="button" class="btn btn-dark btn-block">Enviar</button>
+                  </div>
+                </div>
+
+            </form>          
+        </div>
+      </div>
+    </div>
+</section>
+
+
+
+ <!-- examen cazador final -->
+
+
+<!-- comienzo footer -->
+  <footer id="footer" class="pb-4 pt-4">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-12 col-lg">
+                <a href="">yan ken</a>
+            </div>
+
+            <div class="col-12 col-lg">
+                <a href="">skill hunter</a>
+            </div>
+
+        </div>
+    </div>
+  </footer>
+<!-- fin del footer -->
+
+<!-- Modal -->
+<div class="modal fade" id="Modalcazador" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalCenterTitle">Ser Un Cazador</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form action="">
+          <div class="form-row">
+            <div class="form-group col"> 
+              <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text" id="basic-addon1">@</span>
+                </div>
+                <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+        <button type="button" class="btn btn-primary">Guardar</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- modal fin -->
+
+
+
+
+
+
+
+  <!-- ✅ Scripts necesarios para Bootstrap 4 -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="./index.js"></script>
+</body>
+</html>
